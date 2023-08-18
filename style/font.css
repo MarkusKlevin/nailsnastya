@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Baloo';
+  src: url(../fonts/Baloo_Bhai_2/BalooBhai2-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'indie';
+  src: url(../fonts/Indie_Flower/IndieFlower-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'interlight';
+  src: url(../fonts/Inter/Inter-Light.ttf);
+}
+
+@font-face {
+  font-family: 'interregular';
+  src: url(../fonts/Inter/Inter-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'OleoScript';
+  src: url(../fonts/Oleo_Script/OleoScript-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Orelega';
+  src: url(../fonts/Orelega_One/OrelegaOne-Regular.ttf);
+}
