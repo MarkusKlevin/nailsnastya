@@ -3,10 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+  />
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/font.css">
     <link rel="stylesheet" href="style/media.css" />
-    <link rel="shortcut icon" href="N" type="image/x-icon">
+    <link rel="shortcut icon" href="img/icons/Square Alt Arrow Up.svg" type="image/x-icon">
     <title>Nails Nastya</title>
   </head>
   <body>
@@ -35,7 +39,7 @@
         <section class="main__banner-section  active">
             <div class="container">
                 <div class="banner__block">
-                    <img class="banner__header" src="img/icons/banner.png" alt="">
+                    <!-- <img class="banner__header" src="img/icons/banner.png" alt=""> -->
                     <div class="main__title-block">
                         <h1 class="banner__title">идеальный маникюр для тебя!</h1>
                         <p class="banner__text">Аппаратный маникюр, выравнивание ногтевой пластины,покрытие гель лаком.</p>
@@ -48,29 +52,68 @@
           <div class="container">
             <div class="portfolio__blocks">
             <h2 class="main__block-portfolio-title">Мои работы</h2>
-            <!-- <div class="blocks__portfolio"> -->
+            <div class="blocks__portfolio">
+             
 
              <div class="block__works-position">
-              <ul class="blocks__portfolio-list">
-                <li class="blocks__portfolio-link"></li>
-                <li class="blocks__portfolio-link"></li>
-                <li class="blocks__portfolio-link"></li>
-                <li class="blocks__portfolio-link"></li>
-                <li class="blocks__portfolio-link"></li>
-                <li class="blocks__portfolio-link"></li>
-                <li class="blocks__portfolio-link"></li>
-              </ul>
-              <button class="before__block__main__nazad  before__btn-left ">
+            <!-- Slider main container -->
+<div class="swiper">
+
+  <div class="swiper-wrapper">
+   
+    <div class="swiper-slide"><img src="img/1.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="img/2.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="img/3.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="img/4.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="img/5.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="img/1.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="img/2.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="img/3.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="img/4.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="img/5.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="img/1.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="img/2.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="img/3.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="img/4.jpg" alt=""></div>
+    <div class="swiper-slide"><img src="img/5.jpg" alt=""></div>
+    </div>
+
+
+  
+  <!-- If we need pagination -->
+  <!-- <div class="swiper-pagination"></div> -->
+
+  <!-- If we need navigation buttons -->
+ 
+    <div class="swiper-button-prev"></div>
+ 
+    <div class="swiper-button-next"></div>
+    <div class="swiper-pagination"></div>
+</div>
+
+
+
+  <!-- If we need scrollbar -->
+  <!-- <div class="swiper-scrollbar"></div> -->
+</div>
+
+              <!-- <button class="before__block__main__nazad  before__btn-left ">
                 <img class="img__vector" src="img/icons/left.svg" alt="">
               </button>
               <button class="after__block__main__vpered before__btn-right">
                 <img class="img__vector" src="img/icons/right.svg" alt="">
-              </button>
+              </button> -->
+           
             </div>
+           
           </div>
+          
           </div>
+          
           </div>
+         
         </section>
+        
         <section class="main__price-list" id="price">
           <div class="container">
             <div class="block__price-all-list">
@@ -131,6 +174,7 @@
           </div>
          
         </section>
+        
     </main>
 
 
@@ -148,14 +192,20 @@
              <a class="number" href="tel:+998909084063">+998(90)908-40-63</a>
             </div>
           </div>
+          
         </div>
+        
       </div>
+      <div class="block--pass">© 2023.  <span class="block--pass-span">NailsNastya</span></div>
+      
     </footer>
 
 
 
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="script/script.js"></script>
+  
   </body>
 </html>
  
