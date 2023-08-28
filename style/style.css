@@ -256,6 +256,14 @@ color:yellow;
 
 }
 
+
+input{
+  outline-offset: 0;
+  outline: 0;
+  box-shadow:0px 4px 4px 0px rgba(0, 0, 0, 0.5);
+  
+
+}
 /* .after__block__main__vpered {
   position: absolute;
   right: 0;
@@ -320,7 +328,7 @@ color:yellow;
   display: block;
   background: var(--price__list-color);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
-  height: 588px;
+  height: 700px;
   margin: 100px 111px;
   overflow: hidden;
   position: relative;
@@ -340,13 +348,7 @@ justify-content: center;
 background:var(--pink_footer);
 }
 
-.block__form{
-display: flex;
-gap: 20px;
-border:none;
 
-
-}
 
 .block__form input{
   border:none;
@@ -380,6 +382,7 @@ font-family: var(--interregular);
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
   
 }
 
@@ -504,7 +507,8 @@ font-family: var(--interregular);
   position: absolute;
   overflow: hidden;
   border: none;
-  bottom: -70px;
+  
+ 
 }
 
 .price__pedikur-link-cena input {
@@ -517,10 +521,11 @@ font-family: var(--interregular);
 }
 
 .button__block {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
+  display: block;
+  position: absolute;
+  bottom: 130px;
+  left: 500px;
+  
 }
 
 .footer__block-information {
@@ -621,6 +626,57 @@ align-items:center;
 justify-content: center;
 } */
 
+
+
+.block__zakaz-holst{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+margin-bottom: 100px;
+
+
+}
+
+.block__form form{
+display: flex;
+flex-direction: column;
+gap: 30px;
+
+}
+
+textarea{
+padding: 20px;
+outline: none;
+border:none
+
+}
+
+.date__form-second{
+display: flex;
+align-items:center;
+justify-content: center;
+}
+
+.zakaz__form{
+  color: #000;
+  text-align: center;
+  font-family: var(--OrelegaRegular);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 48px */
+  margin-bottom: 20px;
+}
+
+
+
+
+.zakaz__btn{
+cursor: pointer;
+border-radius: 50px;
+background: #29FE91;
+}
 
 
 
