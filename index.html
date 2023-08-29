@@ -4,234 +4,292 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
-  />
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/font.css">
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/font.css" />
     <link rel="stylesheet" href="style/media.css" />
-    <link rel="shortcut icon" href="img/icons/Square Alt Arrow Up.svg" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="img/icons/Square Alt Arrow Up.svg"
+      type="image/x-icon"
+    />
     <title>Nails Nastya</title>
   </head>
   <body>
     <header>
       <div class="container">
         <div class="header__block active">
-            <nav class="header__nav  ">
-              <div class="header__logo">
-                <a href=""><img src="img/icons/Лого.svg" alt="" /></a>
-              </div>
-              <ul class="header__list">
-                <li><a  class="header__link" href="#">Home</a></li>
-                <li><a  class="header__link" href="#portfolio" id="">Portfolio</a></li>
-                <li><a  class="header__link"  href="#price">Price list</a></li>
-                <li><a class="header__link" href="#">About</a></li>
-              </ul>
-              <div class="header__number">
-                <a class="number" href="tel:+998909084063">+998(90)908-40-63</a>
-              </div>
-            </nav>
-          </div>
+          <nav class="header__nav">
+            <div class="header__logo">
+              <a href=""><img src="img/icons/Лого.svg" alt="" /></a>
+            </div>
+            <ul class="header__list">
+              <li><a class="header__link" href="#">Home</a></li>
+              <li>
+                <a class="header__link" href="#portfolio" id="">Portfolio</a>
+              </li>
+              <li><a class="header__link" href="#price">Price list</a></li>
+              <li><a class="header__link" href="#">About</a></li>
+            </ul>
+            <div class="header__number">
+              <a class="number" href="tel:+998909084063">+998(90)908-40-63</a>
+            </div>
+          </nav>
+        </div>
       </div>
     </header>
 
     <main>
-        <section class="main__banner-section  active">
-            <div class="container">
-                <div class="banner__block">
-                    <!-- <img class="banner__header" src="img/icons/banner.png" alt=""> -->
-                    <div class="main__title-block">
-                        <h1 class="banner__title">идеальный маникюр для тебя!</h1>
-                        <p class="banner__text">Аппаратный маникюр, выравнивание ногтевой пластины,покрытие гель лаком.</p>
-                        <a href="#zakaz"><button class="btn btn_tg">Записаться</button></a>
-                    </div>
-                </div>
+      <section class="main__banner-section active">
+        <div class="container">
+          <div class="banner__block">
+            <!-- <img class="banner__header" src="img/icons/banner.png" alt=""> -->
+            <div class="main__title-block">
+              <h1 class="banner__title">идеальный маникюр для тебя!</h1>
+              <p class="banner__text">
+                Аппаратный маникюр, выравнивание ногтевой пластины,покрытие гель
+                лаком.
+              </p>
+              <a href="#zakaz"
+                ><button class="btn btn_tg">Записаться</button></a
+              >
             </div>
-        </section>
-        <section class="main__my-portfolio active" id="portfolio">
-          <div class="container">
-            <div class="portfolio__blocks">
+          </div>
+        </div>
+      </section>
+      <section class="main__my-portfolio active" id="portfolio">
+        <div class="container">
+          <div class="portfolio__blocks">
             <h2 class="main__block-portfolio-title">Мои работы</h2>
             <div class="blocks__portfolio">
-             
-
-             <div class="block__works-position">
-            <!-- Slider main container -->
-<div class="swiper">
-
-  <div class="swiper-wrapper">
-   
-    <div class="swiper-slide"><img src="img/1.jpg" alt=""></div>
-    <div class="swiper-slide"><img src="img/2.jpg" alt=""></div>
-    <div class="swiper-slide"><img src="img/3.jpg" alt=""></div>
-    <div class="swiper-slide"><img src="img/4.jpg" alt=""></div>
-    <div class="swiper-slide"><img src="img/5.jpg" alt=""></div>
-    <div class="swiper-slide"><img src="img/1.jpg" alt=""></div>
-    <div class="swiper-slide"><img src="img/2.jpg" alt=""></div>
-    <div class="swiper-slide"><img src="img/3.jpg" alt=""></div>
-    <div class="swiper-slide"><img src="img/4.jpg" alt=""></div>
-    <div class="swiper-slide"><img src="img/5.jpg" alt=""></div>
-    <div class="swiper-slide"><img src="img/1.jpg" alt=""></div>
-    <div class="swiper-slide"><img src="img/2.jpg" alt=""></div>
-    <div class="swiper-slide"><img src="img/3.jpg" alt=""></div>
-    <div class="swiper-slide"><img src="img/4.jpg" alt=""></div>
-    <div class="swiper-slide"><img src="img/5.jpg" alt=""></div>
-    </div>
-
-
-  
-  <!-- If we need pagination -->
-  <!-- <div class="swiper-pagination"></div> -->
-
-  <!-- If we need navigation buttons -->
- 
-    <div class="swiper-button-prev"></div>
- 
-    <div class="swiper-button-next"></div>
-    <div class="swiper-pagination"></div>
-</div>
-
-
-
-  <!-- If we need scrollbar -->
-  <!-- <div class="swiper-scrollbar"></div> -->
-</div>
-
-              <!-- <button class="before__block__main__nazad  before__btn-left ">
-                <img class="img__vector" src="img/icons/left.svg" alt="">
-              </button>
-              <button class="after__block__main__vpered before__btn-right">
-                <img class="img__vector" src="img/icons/right.svg" alt="">
-              </button> -->
-           
-            </div>
-           
-          </div>
-          
-          </div>
-          
-          </div>
-         
-        </section>
-        
-        <section class="main__price-list" id="price">
-          <div class="container">
-            <div class="block__price-all-list">
-              <h3 class="price__list-title">Price list</h3>
-              <div class="block__price-list-two_block">
-                <div class="block__1">
-                <h3 class="manikur__list-title">Маникюр</h3>
-              <div class="block__price-manikur">
-        
-                <ul class="price__manikur-list" >
-                  
-                  <li class="price__manikur-link-title" name="price">Маникюр без покрытия  <span class="price-cena">80 000 sum</span> </li>
-                  
-                  <li class="price__manikur-link-title">Маникюр  + покрытие <span class="price-cena">100 000 sum </span></li>
-                  <li class="price__manikur-link-title">Маникюр + укрепление + покрытие <span class="price-cena">180 000 sum</span> </li>
-                  <li class="price__manikur-link-title">Маникюр + цветное укрепление <span class="price-cena"> 200 000 sum</span></li>
-                  <li class="price__manikur-link-title">Наращивание ногтей <span class="price-cena">220 000 sum</span></li>
-                  <li class="price__manikur-link-title">Коррекция наращивания <span class="price-cena"> 200 000 sum</span></li>
-                  <li class="price__manikur-link-title">Наращивание ногтей + покрытие <span class="price-cena">270 000 sum</span> </li>
-
-                </ul>
-          
-              </div>
-            </div>
-            <div class="block__2">
-              <h3 class="pedikur__list-title">Педикюр</h3>
-              <div class="block__price-pedikur">
-      
-                <ul class="block__price-pedikur-title">
-                  <li class="price__pedikur-link-title">Педикюр без покрытия <span class="price-cena">150 000 sum</span>  </li>
-                  <li class="price__pedikur-link-title">Педикюр  + покрытие <span class="price-cena">200 000 sum</span></li>
-                  <li class="price__pedikur-link-title">Мужской маникюр <span class="price-cena">100 000 sum</span> </li>
-                  <li class="price__pedikur-link-title">Мужской педикюр <span class="price-cena">150 000 sum</span> </li>
-                  <li class="price__pedikur-link-title">Дизайн от <span class="price-cena">5 000 sum</span> </li>
-                  <li class="price__pedikur-link-title">Починка ногтя <span class="price-cena">5 000 sum</span> </li>
-                  <li class="price__pedikur-link-title">Донаращивание <span class="price-cena">10 000 sum</span> </li>
-                  <li class="price__pedikur-link-title">Спа Рук <span class="price-cena">70 000 sum</span> </li>
-                  <li class="price__pedikur-link-title">Спа ног <span class="price-cena">100 000 sum</span> </li>
-                </ul>
-              
-              </div>
-              </div>
-          </div>
-        
-            </div>
-           
-          </div>
-         
-        </section>
-        <section>
-          <div class="main__zakaz_block" id="zakaz">
-            <div class="container">
-          <div class="block__zakaz-holst">
-            <h3 class="zakaz__form">Запись</h3>
-            <div class="block__form">
-            <form class="form" onsubmit="sendEmailTelegram(event)">
-              <div class="form__stripes-block">
-                  <div class="form__line"></div>
-              </div>
-              <div class="form__group">
-                
-                  <input type="text" name="name" placeholder="Ваше имя" autocomplete="off" maxlength="50" required>
-                  <input type="tel" name="phone" placeholder="Ваше номер телефона" autocomplete="off" maxlength="15" required>
-                  <input type="datetime-local" name="date" autocomplete="off" maxlength="50">
-                  
-              </div>
-              <div class="form__submit-block">
-                  <div class="form__submit-button">
-                      <button class="btn_tg" type="submit">Отправить</button>
+              <div class="block__works-position">
+                <!-- Slider main container -->
+                <div class="swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <img src="img/1.jpg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="img/2.jpg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="img/3.jpg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="img/4.jpg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="img/5.jpg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="img/1.jpg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="img/2.jpg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="img/3.jpg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="img/4.jpg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="img/5.jpg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="img/1.jpg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="img/2.jpg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="img/3.jpg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="img/4.jpg" alt="" />
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="img/5.jpg" alt="" />
+                    </div>
                   </div>
+
+                  <div class="swiper-button-prev"></div>
+
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-pagination"></div>
+                </div>
               </div>
-             
-          </form>
-          <div class="form__send-result"></div>
             </div>
           </div>
         </div>
+      </section>
+
+      <section class="main__price-list" id="price">
+        <div class="container">
+          <div class="block__price-all-list">
+            <h3 class="price__list-title">Price list</h3>
+            <div class="block__price-list-two_block">
+              <div class="block__1">
+                <h3 class="manikur__list-title">Маникюр</h3>
+                <div class="block__price-manikur">
+                  <ul class="price__manikur-list">
+                    <li class="price__manikur-link-title" name="price">
+                      Маникюр без покрытия
+                      <span class="price-cena">80 000 sum</span>
+                    </li>
+
+                    <li class="price__manikur-link-title">
+                      Маникюр + покрытие
+                      <span class="price-cena">100 000 sum </span>
+                    </li>
+                    <li class="price__manikur-link-title">
+                      Маникюр + укрепление + покрытие
+                      <span class="price-cena">180 000 sum</span>
+                    </li>
+                    <li class="price__manikur-link-title">
+                      Маникюр + цветное укрепление
+                      <span class="price-cena"> 200 000 sum</span>
+                    </li>
+                    <li class="price__manikur-link-title">
+                      Наращивание ногтей
+                      <span class="price-cena">220 000 sum</span>
+                    </li>
+                    <li class="price__manikur-link-title">
+                      Коррекция наращивания
+                      <span class="price-cena"> 200 000 sum</span>
+                    </li>
+                    <li class="price__manikur-link-title">
+                      Наращивание ногтей + покрытие
+                      <span class="price-cena">270 000 sum</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="block__2">
+                <h3 class="pedikur__list-title">Педикюр</h3>
+                <div class="block__price-pedikur">
+                  <ul class="block__price-pedikur-title">
+                    <li class="price__pedikur-link-title">
+                      Педикюр без покрытия
+                      <span class="price-cena">150 000 sum</span>
+                    </li>
+                    <li class="price__pedikur-link-title">
+                      Педикюр + покрытие
+                      <span class="price-cena">200 000 sum</span>
+                    </li>
+                    <li class="price__pedikur-link-title">
+                      Мужской маникюр
+                      <span class="price-cena">100 000 sum</span>
+                    </li>
+                    <li class="price__pedikur-link-title">
+                      Мужской педикюр
+                      <span class="price-cena">150 000 sum</span>
+                    </li>
+                    <li class="price__pedikur-link-title">
+                      Дизайн от <span class="price-cena">5 000 sum</span>
+                    </li>
+                    <li class="price__pedikur-link-title">
+                      Починка ногтя <span class="price-cena">5 000 sum</span>
+                    </li>
+                    <li class="price__pedikur-link-title">
+                      Донаращивание <span class="price-cena">10 000 sum</span>
+                    </li>
+                    <li class="price__pedikur-link-title">
+                      Спа Рук <span class="price-cena">70 000 sum</span>
+                    </li>
+                    <li class="price__pedikur-link-title">
+                      Спа ног <span class="price-cena">100 000 sum</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        </section>
-        
+      </section>
+      <section>
+        <div class="main__zakaz_block" id="zakaz">
+          <div class="container">
+            <div class="block__zakaz-holst">
+              <h3 class="zakaz__form">Запись</h3>
+              <div class="block__form">
+                <form class="form" onsubmit="sendEmailTelegram(event)">
+                  <div class="form__stripes-block">
+                    <div class="form__line"></div>
+                  </div>
+                  <div class="form__group">
+                    <input
+                      type="text"
+                      name="name"
+                      placeholder="Ваше имя"
+                      autocomplete="off"
+                      maxlength="50"
+                      required
+                    />
+                    <input
+                      type="tel"
+                      name="phone"
+                      placeholder="Ваше номер телефона"
+                      autocomplete="off"
+                      maxlength="15"
+                      required
+                    />
+                    <input
+                      type="datetime-local"
+                      name="date"
+                      autocomplete="off"
+                      maxlength="50"
+                      required
+                    />
+                  </div>
+                  <div class="form__submit-block">
+                    <div class="form__submit-button">
+                      <button class="btn_tg" type="submit">Отправить</button>
+                    </div>
+                  </div>
+                </form>
+                <div class="form__send-result"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
-
-    
     <footer>
       <div class="footer__block">
         <div class="container">
           <div class="footer__block-information">
             <div class="block__footer-logo">
-              <a href=""><img src="img/icons/Лого.svg" alt=""></a>
+              <a href=""><img src="img/icons/Лого.svg" alt="" /></a>
             </div>
             <div class="block__footer-social">
-              <a href=""><img class="footer__instagram" src="img/icons/instagram.svg" alt=""></a>
-              <a href=""><img class="footer__telegram" src="img/icons/telegram.svg" alt=""></a>
-             <a class="number" href="tel:+998909084063">+998(90)908-40-63</a>
+              <a href=""
+                ><img
+                  class="footer__instagram"
+                  src="img/icons/instagram.svg"
+                  alt=""
+              /></a>
+              <a href=""
+                ><img
+                  class="footer__telegram"
+                  src="img/icons/telegram.svg"
+                  alt=""
+              /></a>
+              <a class="number" href="tel:+998909084063">+998(90)908-40-63</a>
             </div>
           </div>
-          
         </div>
-        
       </div>
       <div id="current_date_time_block2"></div>
-      <div class="block--pass"> © 2023<span class="block--pass-span">NailsNastya</span></div>
-      
-      
-
-      
+      <div class="block--pass">
+        © 2023<span class="block--pass-span">NailsNastya</span>
+      </div>
     </footer>
-
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="script/index.js"></script>
     <script src="script/script.js"></script>
-
-
-  
   </body>
 </html>
- 
