@@ -180,51 +180,24 @@
           <div class="block__zakaz-holst">
             <h3 class="zakaz__form">Запись</h3>
             <div class="block__form">
-            <!-- <form> 
-            <input type="text" placeholder="Ваше Имя">
-            <input type="tel" placeholder="Ваш номер телефона">
-                <input type="date" name="calendar">
-               </form>
-               <input class="zakaz__btn" type="submit" value="Отправить"></p> -->
-               <!-- <form action="sender.php" method="post" class="telegram-form">
-                <input type="text" class="name" name="name" placeholder="Имя" />
-                <input type="text" name="surname" placeholder="Фамилия" />
-                <input type="text" class="phone" name="phone" placeholder="Телефон" />
-                <input type="date" name="calendar">
-                <input type="email" name="email" placeholder="Email" />
-                <textarea
-                    name="text"
-                    id=""
-                    cols="30"
-                    rows="10"
-                    placeholder=""
-                ></textarea>
-                <button type="submit" class="send-form btn">Отправить форму</button>
-                <div class="status"></div>
-            </form> -->
-
-
-
-
-
-
-
-            <form action="telegram.php" method="POST">
-              <div class="form-group">
-                <input type="text" class="form-control" id="" name="user_name" placeholder="Например, Иван">
+            <form class="form" onsubmit="sendEmailTelegram(event)">
+              <div class="form__stripes-block">
+                  <div class="form__line"></div>
               </div>
-            
-              <div class="form-group">
-              
-                <input type="text" class="form-control" id="" name="user_phone" placeholder="+998(90) 000 00 00">
+              <div class="form__group">
+                
+                  <input type="text" name="name" placeholder="Ваше имя" autocomplete="off" maxlength="50" required>
+                  <input type="email" name="email" placeholder="Ваше email" autocomplete="off" maxlength="50" required>
+                  <input type="tel" name="phone" placeholder="Ваше номер телефона" autocomplete="off" maxlength="15" required>
               </div>
-            
-              <div class="form-group">
-                <input type="text" class="form-control" id="" name="user_email" placeholder="mail@gmail.com">
+              <div class="form__submit-block">
+                  <div class="form__submit-button">
+                      <button type="submit">Отправить</button>
+                  </div>
               </div>
-            
-              <button type="submit" class="btn btn-primary">Отправить форму</button>
-            </form>
+              <div class="form__send-result"></div>
+          </form>
+  
             </div>
           </div>
         </div>
@@ -258,7 +231,7 @@
 
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="script/script.js"></script>
   
