@@ -328,13 +328,13 @@ input{
   display: block;
   background: url(../img/1234.jpeg);
   background-position: center;
-width: 100%;
+  width: 100%;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
-  width: 1200px;
-  height: 1200px;
+  height: 1250px;
   overflow: hidden;
   position: relative;
- margin: 100px;
+  margin-bottom: 100px;
+
 }
 
 
@@ -398,8 +398,8 @@ font-weight: 500;
 
 .block__price-list-two_block {
   display: flex;
-  align-items: center;
   justify-content: space-around;
+
 }
 
 
@@ -798,3 +798,21 @@ background: #29FE91;
   --hover_effect: #ff74a526;
   --price__list-color: #ebced6;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
