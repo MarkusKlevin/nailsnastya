@@ -182,7 +182,7 @@ align-items: center;
 justify-content: center;
 padding: 10px 0;
 font-family: var(--BalooRegular);
-gap: 30px;
+gap: 5px;
 
 
 }
@@ -326,15 +326,17 @@ input{
 
 .block__price-all-list {
   display: block;
-  background: var(--price__list-color);
+  background: url(../img/1234.jpeg);
+  background-position: center;
+width: 100%;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.5);
-  height: 700px;
-  margin: 100px 111px;
+  width: 1200px;
+  height: 1200px;
   overflow: hidden;
   position: relative;
-  
-  
+ margin: 100px;
 }
+
 
 .block1{
 position: absolute;
@@ -346,6 +348,16 @@ display: flex;
 align-items:center;
 justify-content: center;
 background:var(--pink_footer);
+}
+
+
+.block__form{
+display: flex;
+flex-direction: column;
+align-items:center;
+justify-content: center;
+gap: 30px;
+
 }
 
 
@@ -370,69 +382,92 @@ text-transform: uppercase;
 }
 
 ::placeholder{
-padding: 0 20px;
 font-family: var(--interregular);
+display: flex;
+align-items:center;
+justify-content: center;
 
 }
 
 
+.price-cena{
+font-weight: 500;
+}
 
 
-.block__proce-list-two_block {
+
+.block__price-list-two_block {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  position: relative;
-  
+  justify-content: space-around;
 }
+
 
 .price__list-title {
   color: var(--pink);
   text-align: center;
   font-family: var(--interregular);
-  font-size: 45px;
+  font-size: 100px;
   font-style: italic;
   font-weight: 400;
   line-height: 140%; /* 63px */
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 25px 0;
+  padding: 55px 0;
 }
 
-.block__price-manikur {
+
+.manikur__list-title , 
+.pedikur__list-title{
+  color: var(--pink);
+  font-family: var(--interregular);
+  font-size: 45px;
+  font-style: italic;
+  font-weight: 400;
   display: flex;
-  margin: 18px 0 0 60px;
   align-items: center;
-  justify-content: space-around;
+  justify-content: flex-start;
+  /* padding: 25px 0; */
+  margin-bottom: 30px;
 }
 
-.block__price-pedikur {
-  width: 420px;
-  height: 364px;
-  flex-shrink: 0;
-}
 
-.price__manikur-list {
-  display: flex;
-}
+
 .block__price-manikur {
   display: flex;
   justify-content: space-between;
-  gap: 20px;
+  flex-direction: column;
+  
+
+}
+
+.block__1{
+  padding: 20px;
+  width: 566px;
+}
+
+.block__2{
+  width: 500px;
+  padding: 20px;
 }
 
 .price__manikur-link-title,
 .price__pedikur-link-title {
   color: var(--pinkRed);
   font-family: var(--interregular);
-  font-size: 15px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 120%; /* 18px */
   text-transform: uppercase;
   cursor: pointer;
+ display: flex;
+ justify-content: space-between;
+ gap: 20px;
 }
+
+
 
 .price__manikur-list {
   display: flex;
@@ -440,7 +475,7 @@ font-family: var(--interregular);
   gap: 30px;
 }
 
-.price__manikur-link-title::after,
+/* .price__manikur-link-title::after,
 .price__pedikur-link-title::after {
   content: '';
   display: flex;
@@ -448,7 +483,7 @@ font-family: var(--interregular);
   height: 2px;
   align-items: center;
   background-color: var(--pink);
-}
+} */
 
 .price__manikur-link-cena,
 .price__pedikur-link-cena {
@@ -490,9 +525,8 @@ font-family: var(--interregular);
 .block__price-pedikur {
   flex-shrink: 0;
   display: flex;
-  margin: 18px 60px 0;
-  align-items: center;
-  justify-content: space-around;
+ flex-direction: column;
+
 }
 
 .block__price-pedikur-title,
@@ -500,7 +534,13 @@ font-family: var(--interregular);
   display: flex;
   flex-direction: column;
   gap: 30px;
+  justify-content: space-between;
+  /* justify-content: center; */
 }
+
+
+
+
 
 .block__price-btn {
   cursor: pointer;
@@ -516,9 +556,6 @@ font-family: var(--interregular);
   border-radius: 50%;
 }
 
-.price__manikur-link-galochka::placeholder {
-  background-color: #29fe91;
-}
 
 .button__block {
   display: block;
@@ -596,6 +633,8 @@ background: var(--pinkRed)
 
 
 
+
+
 /* .swiper-slide{
 position: relative;
 transform: scale(1.0);
@@ -636,14 +675,75 @@ flex-direction: column;
 margin-bottom: 100px;
 
 
+
 }
 
 .block__form form{
 display: flex;
-flex-direction: column;
 gap: 30px;
-
 }
+
+
+
+.btn_tg{
+  position: relative;
+  font-weight: 600;
+  color: #382b22;
+  text-transform: uppercase;
+  padding: 1.25em 2em;
+  background: #fff0f0;
+  border: 2px solid #b18597;
+  border-radius: 0.75em;
+  transition: transform 0.15s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
+
+.btn_tg::before{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #f9c4d2;
+  border-radius: inherit;
+  box-shadow: 0 0 0 2px #b18597, 0 0.625em 0 0 #ffe3e2;
+  transform: translate3d(0, 0.75em, -1em);
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+button.btn_tg:hover {
+  background: #ffe9e9;
+  transform: translate(0, 0.25em);
+}
+button.btn_tg:hover::before {
+  box-shadow: 0 0 0 2px #b18597, 0 0.5em 0 0 #ffe3e2;
+  transform: translate3d(0, 0.5em, -1em);
+}
+
+button.btn_tg:active {
+  background: #ffe9e9;
+  transform: translate(0em, 0.75em);
+}
+button.btn_tg:active::before {
+  box-shadow: 0 0 0 2px #b18597, 0 0 #ffe3e2;
+  transform: translate3d(0, 0, -1em);
+}
+
+
+.form__send-result{
+  color: #FF3C79;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 140%; /* 25.2px */
+}
+
 
 textarea{
 padding: 20px;
@@ -659,9 +759,9 @@ justify-content: center;
 }
 
 .zakaz__form{
-  color: #000;
+  color: var(--pink);
   text-align: center;
-  font-family: var(--OrelegaRegular);
+  font-family: var(--interregular);
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
