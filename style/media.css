@@ -1,3 +1,138 @@
-@media screen {
-    
+@media screen and (max-width: 10000px) {
+  .tri_poloski {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .block__works-position {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .block__form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .block__form .form__group {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .block__price-list-two_block {
+    flex-direction: column;
+  }
+
+  .block__price-all-list {
+    height: 2000px;
+  }
+
+  .block__price-list-two_block {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .block__1 {
+    width: 500px;
+  }
+
+  .header__list,
+  .header__number {
+    display: none;
+  }
+
+  .tri_poloski {
+    display: block;
+  }
+
+  .header__nav {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .banner__title {
+    font-size: 35px;
+    height: auto;
+    width: auto;
+  }
+  .footer__block-information {
+    flex-direction: column;
+  }
+  .block__footer-social,
+  .block__footer-logo {
+    padding: 20px;
+  }
+
+  .price__manikur-link-title,
+  .price__pedikur-link-title {
+    font-size: small;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .banner__title {
+    height: auto;
+    width: 186px;
+  }
+
+  .banner__text {
+    font-size: 15px;
+  }
+
+  .banner__block {
+    height: 700px;
+  }
+
+  .banner__text {
+    width: 225px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .block__1,
+  .block__2 {
+    width: auto;
+  }
+
+  .price__list-title {
+    font-size: 50px;
+  }
+  .manikur__list-title,
+  .pedikur__list-title {
+    font-size: 35px;
+  }
+
+  .price__cena {
+    width: 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .block__footer-social {
+    flex-direction: column;
+  }
+
+  .swiper {
+    height: auto;
+  }
+
+  .main__title-block {
+    left: 24px;
+  }
+
+  .header__nav {
+    vertical-align: middle;
+  }
+
+  .tri_poloski {
+    font-size: 30px;
+  }
 }
